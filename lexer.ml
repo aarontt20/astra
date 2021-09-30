@@ -93,9 +93,5 @@ let tokenize input =
   (tok input 0)
 
   let () = print_tokens (tokenize 
-  "int main() {
-    int a = 3;
-    int b = 2;
-    return a * b;
-   }
+  "int main()
   ")
